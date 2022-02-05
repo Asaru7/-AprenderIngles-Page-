@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>Aprender Ingles</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#services_section">Servicios</a></li>
+				<li><a href="#contactus_section">Contacto</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Buscar"><img src="" alt="search" onclick=slide()></div>
+			<a class="get-started" href="login.html">Comienza!</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>Aprender ingles cambiara tu vida</p>
+				<h5>Nosotros te daremos todo lo que necesitas para mejorar en esta  area</h5>
+				</div>
+			</div>
+			<div class="svg-image">
+				<img src="" alt="svg">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			<div class="user">
+				<img src="" alt="Username">
+				<p>VictorMLara</p>
+			</div>
+			<ul>
+				<li><a href="#about_section">Sobre Nosotros</a></li>
+				<li><a href="#services_section">Servicios</a></li>
+				<li><a href="#contactus_section">Contacto</a></li>
+			</ul>
+		</div>
+	</header>
+
+<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">Sobre Nosotros</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="">
+				</div>
+				<div class="side-text">
+					<h2>¿Que piensas de nosotros? </h2>
+					<p>Aprender ingles es una de las cosas que puedes hacer para cambiar y mejorar tu vida.<br> Nuestra misión  es ayudarte de forma dinámica y divertida a conocer y aprender mas a fondo este hermoso idioma<br> con nuestros tutores y actividades te garantizamos un éxito rotundo en esta area</p>
+				</div>
+		</div>
+	</div>
+
+
+<!-- SERVICES -->
+	<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Servicios</p></center>
+		</div>
+		<a href=""><div class="s-card"><img src=""><p>Clases on-line</p></div></a>
+		<a href=""><div class="s-card"><img src=""><p>Videos instructivos</p></div></a>
+		<a href=""><div class="s-card"><img src=""><p>Actividades didacticas</p></div></a>
+		<a href=""><div class="s-card"><img src=""><p>Certificados Homologados</p></div></a>
+		<a href="#contactus_section"><div class="s-card"><img src=""><p>Soporte las 24 horas</p></p></div></a>
+	</div>
+	
+<!-- CONTACTACTO-->
+	<div class="diffSection" id="contactus_section">
+		<center><p style="font-size: 50px; padding: 100px">Contactanos</p></center>
+		<div class="csec"></div>
+		<div class="back-contact">
+			<div class="cc">
+			<form action="mailto:vmlp1996@gmail.com" method="post" enctype="text/plain">
+				<label>Nombre<span class="imp">*</span></label><label style="margin-left: 185px">Apellido <span class="imp">*</span></label><br>
+				<center>
+				<input type="text" name="" style="margin-right: 10px; width: 140px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
+				</center>
+				<label>Email <span class="imp">*</span></label><br>
+				<input type="email" name="mail" style="width: 100%" required="required"><br>
+				<label>Mensaje <span class="imp">*</span></label><br>
+				<input type="text" name="message" style="width: 100%" required="required"><br>
+				<label>Detalles adicionales</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Enviar mensaje</button>
+			</form>
+			</div>
+		</div>
+	</div>
+
+
+><br>
+
+
+<!-- Sliding Information -->
+	<marquee style="background: linear-gradient(to right, #44A748, #ABE6AD); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu">“Mensaje para scroll.”</div></marquee>
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<!--<img src="images/icon/logo - Copy.png" style="width: 200px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="images/icon\fb.png"></a>
+					<a href="#"><img src="images/icon\insta.png"></a>
+					<a href="#"><img src="images/icon\tt.png"></a>
+					<a href="#"><img src="images/icon\ytube.png"></a>
+					<a href="#"><img src="images/icon\linkedin.png"></a>
+				</div><br><br> -->
+				<p><img src=""> +00-1234-567-890<br><img src="">&nbsp; aprenderingles@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Subscribete</h1>
+				<div class="border"></div><br>
+				<p>Introduce tu email para nuevas noticias.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
